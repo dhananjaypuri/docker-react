@@ -17,6 +17,7 @@ deploy:
   bucket_path: "docker-react"
   on:
     branch: master
-  access_key_id: "$AWS_ACCESS_KEYS"
+  access_key_id: 
+    secure: "AKIA5X5BFHDWXZ44B2P2"
   secret_access_key:
-    secure: "$AWS_SECRET_KEY"
+    secure: "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"

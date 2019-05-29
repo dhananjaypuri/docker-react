@@ -14,7 +14,6 @@ deploy:
   app: "app"
   env: "app-env"
   bucket_name: "elasticbeanstalk-us-west-1-944693917933"
-  bucket_path: "app"
   on:
     branch: master
   access_key_id: $AWS_ACCESS

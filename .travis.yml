@@ -12,7 +12,7 @@ deploy:
   provider: elasticbeanstalk
   region: "us-west-1"
   app: "app"
-  env: "app-env"
+  env: "App-env"
   bucket_name: "elasticbeanstalk-us-west-1-944693917933"
   on:
     branch: master

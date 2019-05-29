@@ -10,12 +10,13 @@ script:
 
 deploy:
   provider: elasticbeanstalk
-  region: "us-west-1"
+  access_key_id: 
+    secure: $AWS_ACCESS
+  secret_access_key:
+    secure: "$AWS_KEY"
+  region: "us-west-1"  
   app: "app"
   env: "App-env"
   bucket_name: "elasticbeanstalk-us-west-1-944693917933"
   on:
     branch: master
-  access_key_id: $AWS_ACCESS
-  secret_access_key:
-    secure: "$AWS_KEY"
